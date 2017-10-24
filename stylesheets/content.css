@@ -75,3 +75,11 @@ ul {
   margin-top: 14px;
   margin-left: 20px;
 }
+div {
+  border-left: 4px solid;
+  padding-left: 15px;
+  font-size: 20px;
+  line-height: 36px;
+  font-style: italic;
+  margin-top: 32px;
+}
