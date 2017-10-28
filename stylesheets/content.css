@@ -1,11 +1,14 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  width: 700px;
-  margin: 0 auto;
   /*background-image: url(../images/mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;*/
+}
+
+article {
+  width: 700px;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -20,15 +23,14 @@ h1 {
   line-height: 30px;
 }
 
-h1 + p {
-  color: rgba(0,0,0, .4);
+h1+p {
+  color: rgba(0, 0, 0, .4);
   line-height: 30px;
-
 }
+
 p {
   font-size: 20px;
   line-height: 36px;
-
 }
 
 h3 {
@@ -36,17 +38,17 @@ h3 {
   font-size: 25px;
   /*margin-top: 6px;*/
   margin-top: 22px;
-
 }
-h3 + p {
+
+h3+p {
   margin-top: 2px;
 }
 
-p + p {
+p+p {
   margin-top: 28px;
 }
 
-h1 + p + p {
+h1+p+p {
   margin-top: 33px;
 }
 
@@ -67,7 +69,6 @@ h2 {
   font-size: 28px;
   margin-top: 31px;
   margin-bottom: 5px;
-
 }
 
 ul {
