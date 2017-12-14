@@ -1,6 +1,47 @@
 .sidebar {
   position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 30px;
   width: 300px;
-  background-color: olive;
+  /*background-color: black;*/
+  z-index: 1;
+  opacity: .1;
+  transition: all .2s ease-out;
+}
 
+.sidebar:hover {
+  opacity: 1;
+}
+
+.sidebar a {
+  text-decoration: none;
+  cursor: pointer;
+  /*color: black;*/
+}
+
+.sidebar {
+  /*line-height: 23px;*/
+  font-size: 15px;
+
+}
+
+.sidebar a:hover  {
+  text-decoration: underline;
+}
+
+.sidebar > ul > li:first-child {
+font-weight: bold;
+}
+
+.sidebar li + li, a + ul {
+  margin-top: 18px;
+}
+
+.sidebar > ul > li > ul li {
+  margin-left: 10px;
+}
+
+.sidebar > ul > li > ul li a{
+color: rgba(0, 0, 0, .4);
 }
