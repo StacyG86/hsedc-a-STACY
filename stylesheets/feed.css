@@ -1,0 +1,7 @@
+.feed.bg {
+  height: 1507px;
+  width: 1440px;
+  background-image: url(../images/posts_mockup.png);
+  background-size: cover;
+  background-position: center -20px;
+}

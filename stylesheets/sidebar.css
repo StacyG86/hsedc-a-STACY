@@ -45,3 +45,9 @@ font-weight: bold;
 .sidebar > ul > li > ul li a{
 color: rgba(0, 0, 0, .4);
 }
+
+@media all and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}

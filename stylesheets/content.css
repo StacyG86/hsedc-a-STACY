@@ -1,4 +1,4 @@
-article {
+article > * {
   width: 700px;
   margin: 0 auto;
 }
@@ -88,8 +88,10 @@ article blockquote::before {
 }
 
 article img {
-  margin: 78px -40px 78px -40px;
-  width: 800px;
+  display: block;
+  /*margin: 78px -40px 78px -40px;*/
+  width: 1020px;
+  margin: 78px auto;
 }
 
 article ol {
@@ -98,4 +100,20 @@ article ol {
   margin-top: 14px;
   margin-left: 20px;
   margin-bottom: 14px;
+}
+
+@media screen and (max-width: 1020px) {
+  article img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  body {
+    min-width: 320px;
+  }
+
+  article > * {
+    width: calc(100% - 40px);
+  }
 }
