@@ -18,3 +18,8 @@ a:visited {
   bottom: 20px;
   right: 20px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

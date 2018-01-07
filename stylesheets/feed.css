@@ -5,21 +5,55 @@
 .feed.bg {
   height: 1507px;
   width: 1440px;
-  background-image: url(../images/posts_mockup.png);
+  /* background-image: url(../images/posts_mockup.png); */
   background-size: cover;
   background-position: center -20px;
   background-repeat: no-repeat;
 }
 
 .postsFeed {
-  padding-top: 90px;
-  display: flex;
+  padding-top: 87px;
+  padding-left: 240px;
 }
 
 .postsFeed .postCard {
 display: block;
-
+width: 860px;
 border: 1px solid .1px;
 box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
 background-color: #fff;
+border-radius: 5px;
+}
+
+.postsFeed p {
+  font-size: 25px;
+  color: rgba(0,0,0,.4);
+  margin: 7px 0 10px;
+  line-height: 39px;
+
+}
+
+.postsFeed h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 37px;
+  color: rgba(0,0,0,.8);
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 40px;
+
+}
+
+.postsFeed a {
+  width: 870px;
+  margin: 10px auto;
+  padding: 20px 20px 20px 20px;
+
+}
+
+.postsFeed figure {
+  margin-bottom: 31px;
+    width: 820px;
+    height: 234px;
+    background-size: cover;
+    background-position: center;
 }
