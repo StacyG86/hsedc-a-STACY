@@ -98,7 +98,7 @@ article ol {
   line-height: 36px;
   list-style: disc;
   margin-top: 14px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-bottom: 14px;
 }
 

@@ -1,0 +1,66 @@
+.landing.bg {
+  height: 1507px;
+  width: 1440px;
+  background-image: url(../images/index_mockup.png);
+  background-size: cover;
+  background-position: center -20px;
+  background-repeat: no-repeat;
+
+}
+
+.landingWrapper {
+  padding-top: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.landingWrapper .mainSection h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.landingWrapper .mainSection p {
+  font-size: 34px;
+  line-height: 44px;
+  margin-top: 26px;
+}
+
+.landingWrapper .mainSection {
+  position: relative;
+  height: 780px;
+}
+
+.landingWrapper .mainSection .textWrapper {
+  position: absolute;
+  top: 104px;
+  left: 190px;
+}
+
+.landingWrapper .mainSection .pattern {
+  width: 230px;
+  height: 20px;
+  background-image: url(../images/landing/pattern.svg);
+  margin-left: -66px;
+  margin-top: 275px;
+}
+
+.landingWrapper .mainSection.left .textWrapper {
+
+}
+
+.landingWrapper .mainSection.left .pattern {
+
+}
+
+.landingWrapper .mainSection.right .textWrapper {
+
+}
+
+.landingWrapper .mainSection.right .pattern {
+  
+}
+
+.landingWrapper .mainSection.center {
+
+}
