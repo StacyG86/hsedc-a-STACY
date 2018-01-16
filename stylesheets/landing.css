@@ -1,11 +1,10 @@
 .landing.bg {
-  height: 1507px;
+  height: 1570px;
   width: 1440px;
   background-image: url(../images/index_mockup.png);
   background-size: cover;
   background-position: center -20px;
   background-repeat: no-repeat;
-
 }
 
 .landingWrapper {
@@ -16,51 +15,81 @@
 
 .landingWrapper .mainSection h2 {
   font-family: 'PT Sans Caption', sans-serif;
-  font-size: 44px;
+  font-size: 41px;
   line-height: 52px;
 }
 
 .landingWrapper .mainSection p {
-  font-size: 34px;
-  line-height: 44px;
-  margin-top: 26px;
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 43px;
 }
 
 .landingWrapper .mainSection {
   position: relative;
-  height: 780px;
+  width: 1440px;
+  height: 800px;
+}
+
+.landingWrapper .mainSection.center h2 {
+  font-size: 46px;
+  line-height: 58px;
+}
+
+.landingWrapper .mainSection.center p {
+  margin-top: 34px;
 }
 
 .landingWrapper .mainSection .textWrapper {
   position: absolute;
-  top: 104px;
-  left: 190px;
+  width: 780px;
 }
 
 .landingWrapper .mainSection .pattern {
-  width: 230px;
+  width: 245px;
   height: 20px;
   background-image: url(../images/landing/pattern.svg);
-  margin-left: -66px;
-  margin-top: 275px;
+  background-size: cover;
+
 }
 
 .landingWrapper .mainSection.left .textWrapper {
-
+  top: 102px;
+  left: 186px;
 }
 
 .landingWrapper .mainSection.left .pattern {
+  margin-left: -60px;
+  margin-top: 277px;
+}
 
+.landingWrapper .mainSection.left2 .textWrapper {
+  margin-left: 190px;
+  margin-top: 377px;
+}
+
+.landingWrapper .mainSection.left2 .pattern {
+  margin-left: -76px;
+  margin-top: 192px;
 }
 
 .landingWrapper .mainSection.right .textWrapper {
-
+  right: -170px;
+  top: 274px;
 }
 
 .landingWrapper .mainSection.right .pattern {
-  
+  margin-left: 491px;
+  margin-top: 205px;
 }
 
 .landingWrapper .mainSection.center {
+  text-align: center;
+  left: 119px;
+  top: 544px;
+}
 
+.landingWrapper .mainSection.center .textWrapper {
+
+  width: 100%;
 }
