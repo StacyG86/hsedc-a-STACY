@@ -1,34 +1,43 @@
-.landing.bg {
+/* .landing.bg {
   height: 1570px;
   width: 1440px;
   background-image: url(../images/index_mockup.png);
-  background-size: cover;
+  background-size: 1440 3200;
   background-position: center -20px;
   background-repeat: no-repeat;
-}
+} */
 
 .landingWrapper {
   padding-top: 50px;
+  width: 1440px;
   max-width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid .1px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+
 }
 
 .landingWrapper .mainSection h2 {
   font-family: 'PT Sans Caption', sans-serif;
-  font-size: 41px;
-  line-height: 52px;
+  font-size: 36px;
+  line-height: 47px
 }
 
 .landingWrapper .mainSection p {
-  margin-top: 30px;
-  font-size: 30px;
-  line-height: 43px;
+  margin-top: 25px;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 .landingWrapper .mainSection {
   position: relative;
   width: 1440px;
   height: 800px;
+  min-width: 1440px;
 }
 
 .landingWrapper .mainSection.center h2 {
@@ -42,7 +51,12 @@
 
 .landingWrapper .mainSection .textWrapper {
   position: absolute;
-  width: 780px;
+  width: 580px;
+
+}
+
+.landingWrapper .mainSection .textWrapper .btn {
+  display: inline-block;
 }
 
 .landingWrapper .mainSection .pattern {
@@ -54,8 +68,8 @@
 }
 
 .landingWrapper .mainSection.left .textWrapper {
-  top: 102px;
-  left: 186px;
+  top: 74px;
+  left: 279px;
 }
 
 .landingWrapper .mainSection.left .pattern {
@@ -64,32 +78,80 @@
 }
 
 .landingWrapper .mainSection.left2 .textWrapper {
-  margin-left: 190px;
-  margin-top: 377px;
+  margin-left: 282px;
+  margin-top: 77px;
 }
 
 .landingWrapper .mainSection.left2 .pattern {
   margin-left: -76px;
-  margin-top: 192px;
+  margin-top: 191px;
 }
 
 .landingWrapper .mainSection.right .textWrapper {
-  right: -170px;
-  top: 274px;
+  right: 32px;
+  top: 109px;
 }
 
 .landingWrapper .mainSection.right .pattern {
-  margin-left: 491px;
-  margin-top: 205px;
+  margin-left: 425px;
+  margin-top: 174px;
 }
 
 .landingWrapper .mainSection.center {
   text-align: center;
-  left: 119px;
-  top: 544px;
+
+  border-top: 1px solid #f7f7f7;
+  background-color: #fcfcfc;
+
 }
 
 .landingWrapper .mainSection.center .textWrapper {
-
   width: 100%;
+  left: -3px;
+  top: 105px;
+}
+
+.landingWrapper .mainSection.center h2 {
+  font-size: 47px;
+  line-height: 58px;
+}
+
+.landingWrapper .mainSection.center p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.landingWrapper .mainSection .mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+#mockup1 {
+  width: 715px;
+  height: 654px;
+  top: 49px;
+  right: -215px;
+  background-image: url(../images/landing/mockup1.jpg);
+}
+
+#mockup2 {
+  width: 544px;
+  height: 690px;
+  top: 18px;
+  left: 209px;
+  background-image: url(../images/landing/mockup2.jpg);
+}
+
+#mockup3 {
+  width: 1341px;
+  height: 879px;
+  background-image: url(../images/landing/mockup3.jpg);
+  top: 27px;
+  left: 947px;
+}
+
+@media all and (max-width: 1440px) {
+  .landingWrapper {
+    width: 100%;
+  }
 }

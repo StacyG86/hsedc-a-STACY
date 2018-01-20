@@ -1,0 +1,37 @@
+.btn {
+  /* display: inline-block; */
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.small {
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+  width: 250px;
+
+}
+
+.large {
+  font-size: 18px;
+  line-height: 40px;
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.white {
+  border-color: #cccccc;
+  background-color: white;
+  color: #666666;
+}
+
+.green {
+  color: white;
+  background-color: #54b63b;
+  border-color: #2c691a;
+  /* background: -webkit-linear-gradient(top, #64f364 2%,#2bd52b 7%,#01a401 95%,#006900 100%);
+  background: linear-gradient(to bottom, #64f364 2%,#2bd52b 7%,#01a401 95%,#006900 100%); */
+}
