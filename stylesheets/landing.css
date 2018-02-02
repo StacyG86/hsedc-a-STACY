@@ -11,6 +11,7 @@
   padding-top: 50px;
   width: 1440px;
   max-width: 1440px;
+  align-items: center;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -100,8 +101,8 @@
 
 .landingWrapper .mainSection.center {
   text-align: center;
-  /* border-top: 1px solid #f7f7f7;
-  background-color: #fcfcfc; */
+  border-top: 1px solid #f7f7f7;
+  background-color: #fcfcfc;
 
 }
 
@@ -179,15 +180,12 @@
   }
 }
 
-@media all and (max-width: 1180px) {
+/* @media all and (max-width: 1180px){
   .landing.bg {
     background-image: url(../images/index_mockup_ipad.png);
     background-size: 1024px 2275px;
-    background-position: center;
-    background-repeat: no-repeat;
+  } */
 
-
-  }
   .landingWrapper .mainSection {
     width: 1180px;
     height: 568px;
@@ -207,18 +205,17 @@
 
   .landingWrapper .mainSection .textWrapper {
     width: 410px;
-
   }
 
   .landingWrapper .mainSection .pattern {
     width: 173px;
     height: 15px;
     background-size: cover;
-
   }
+
   .landingWrapper .mainSection.left .textWrapper {
-    top: 55px;
-    left: 116px;
+    top: 76px;
+    left: 190px;
   }
 
   .landingWrapper .mainSection.left .pattern {
@@ -227,18 +224,18 @@
   }
 
   .landingWrapper .mainSection.left2 .textWrapper {
-    margin-left: 110px;
-    margin-top: 54px;
+    margin-left: 191px;
+    margin-top: 79px;
   }
 
   .landingWrapper .mainSection.left2 .pattern {
-    margin-left: -32px;
-    margin-top: 113px;
+    margin-left: -53px;
+    margin-top: 109px;
   }
 
   .landingWrapper .mainSection.right .textWrapper {
-    right: 269px;
-    top: 79px;
+    right: 189px;
+    top: 99px;
   }
 
   .landingWrapper .mainSection.right .pattern {
@@ -263,28 +260,35 @@
 
   }
 
+  .landingWrapper .mainSection.center {
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    background-color: #fcfcfc;
+
+  }
+
   #mockup1 {
     width: 458px;
     height: 469px;
-    top: 30px;
-    right: 146px;
+    top: 58px;
+    right: 75px;
     background-image: url(../images/landing/mockup1.jpg);
   }
 
   #mockup2 {
     width: 378px;
     height: 463px;
-    top: 18px;
-    left: 69px;
+    top: 44px;
+    left: 147px;
     background-image: url(../images/landing/mockup2.jpg);
   }
 
   #mockup3 {
-    width: 1341px;
-    height: 494px;
+    width: 916px;
+    height: 498px;
     background-image: url(../images/landing/mockup3.jpg);
-    top: 27px;
-    left: 597px;
+    top: 48px;
+    left: 663px;
   }
 
   .landingWrapper .mainSection.center .textWrapper .btn {
@@ -293,4 +297,28 @@
 
   }
 
+  .landingWrapper .mainSection.center footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 71px;
+  }
+
+  .landingWrapper .mainSection.center footer p {
+    font-size: 12px;
+  }
+
+}
+
+@media all and (max-width: 910px) {
+  .landing.bg {
+    background-image: url(../images/index_mockup_ipad_portrait.png);
+    background-size: 768px 4180px;
+  }
+
+  .landingWrapper .mainSection {
+    width: 910px;
+    height: 1024px;
+    min-width: 910px;
+  }
 }

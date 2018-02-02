@@ -36,7 +36,7 @@
   background: linear-gradient(to bottom, #64f364 2%,#2bd52b 7%,#01a401 95%,#006900 100%);
 }
 
-@media all and (max-width: 1180px) and (min-width: 911) {
+@media all and (max-width: 1180px){
   .small {
     font-size: 11px;
     line-height: 30px;
@@ -46,10 +46,10 @@
   }
 
   .large {
-    font-size: 12px;
-    line-height: 36px;
-    width: 214px;
-    height: 36px;
+    font-size: 13px;
+    line-height: 40px;
+    width: 215px;
+    height: 40px;
     font-weight: bold;
   }
 }
