@@ -1,20 +1,18 @@
-/* .landing.bg {
-  height: 1570px;
-  width: 1440px;
+.landing.bg {
   background-image: url(../images/index_mockup.png);
-  background-size: 1440 3200;
+  background-size: 1440px 3200px;
   background-position: center -10px;
   background-repeat: no-repeat;
-} */
+}
 
 .landingWrapper {
+  position: relative;
   padding-top: 50px;
   width: 1440px;
   max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid .1px;
@@ -180,11 +178,11 @@
   }
 }
 
-/* @media all and (max-width: 1180px){
+@media all and (max-width: 1180px){
   .landing.bg {
     background-image: url(../images/index_mockup_ipad.png);
     background-size: 1024px 2275px;
-  } */
+  }
 
   .landingWrapper .mainSection {
     width: 1180px;
@@ -214,7 +212,7 @@
   }
 
   .landingWrapper .mainSection.left .textWrapper {
-    top: 76px;
+    top: 45px;
     left: 190px;
   }
 
@@ -225,7 +223,7 @@
 
   .landingWrapper .mainSection.left2 .textWrapper {
     margin-left: 191px;
-    margin-top: 79px;
+    margin-top: 52px;
   }
 
   .landingWrapper .mainSection.left2 .pattern {
@@ -235,7 +233,7 @@
 
   .landingWrapper .mainSection.right .textWrapper {
     right: 189px;
-    top: 99px;
+    top: 72px;
   }
 
   .landingWrapper .mainSection.right .pattern {
@@ -310,15 +308,102 @@
 
 }
 
-@media all and (max-width: 910px) {
+@media all and (max-width: 910px) and (min-width: 768px) {
   .landing.bg {
     background-image: url(../images/index_mockup_ipad_portrait.png);
     background-size: 768px 4180px;
   }
 
+  .landingWrapper {}
+
+
   .landingWrapper .mainSection {
-    width: 910px;
-    height: 1024px;
-    min-width: 910px;
+    width: 100%;
+    height: 950px;
+    min-width: 768px;
+  }
+
+  .landingWrapper .mainSection .textWrapper {
+    top: auto;
+    position: relative;
+    margin: 56px auto 0;
+    width: 577px;
+  }
+
+  .landingWrapper .mainSection h2 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .landingWrapper .mainSection p {
+    /* margin-top: 18px; */
+    font-size: 23px;
+    line-height: 34px;
+  }
+
+  .landingWrapper .mainSection .pattern {
+    width: 219px;
+    height: 21px;
+    background-image: url(../images/landing/pattern.svg);
+    background-size: cover;
+  }
+
+
+  /* .landingWrapper .mainSection.left .textWrapper {
+    margin-left: 161px;
+  } */
+
+  .landingWrapper .mainSection.left .textWrapper,
+  .landingWrapper .mainSection.right .textWrapper,
+  .landingWrapper .mainSection.left2 .textWrapper {
+    right: auto;
+    left: auto;
+  }
+
+  .landingWrapper .mainSection.left .pattern {
+    margin-left: -7px;
+    margin-top: -3px;
+  }
+
+  .landingWrapper .mainSection.right .textWrapper {
+    top: 162px;
+  }
+  .landingWrapper .mainSection.right .pattern {
+    margin-left: -52px;
+    margin-top: 47px;
+  }
+
+
+  .landingWrapper .mainSection.left2 .textWrapper {
+    top: 211px;
+  }
+
+  .landingWrapper .mainSection.left2 .pattern {
+    margin-left: 368px;
+    margin-top: 82px;
+  }
+
+  #mockup1 {
+    width: 460px;
+    height: 585px;
+    top: 353px;
+    right: 119px;
+    background-image: url(../images/landing/mockup1.jpg);
+  }
+
+  #mockup2 {
+    width: 481px;
+    height: 602px;
+    top: 477px;
+    left: 314px;
+    background-image: url(../images/landing/mockup2.jpg);
+  }
+
+  #mockup3 {
+    width: 739px;
+    height: 498px;
+    top: 719px;
+    left: 98px;
+    background-image: url(../images/landing/mockup3.jpg);
   }
 }
