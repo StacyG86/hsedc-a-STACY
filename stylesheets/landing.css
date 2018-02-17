@@ -1,10 +1,10 @@
 
-.landing.bg {
+/* .landing.bg {
   background-image: url(../images/index_mockup.png);
   background-size: 1440px 3200px;
   background-position: center -10px;
   background-repeat: no-repeat;
-}
+} */
 
 .landingWrapper {
   position: relative;
@@ -91,7 +91,7 @@
 .landingWrapper .mainSection.center {
   text-align: center;
   border-top: 1px solid #f7f7f7;
-  /* background-color: #fcfcfc; */
+  background-color: #fcfcfc;
 }
 
 .landingWrapper .mainSection.center .textWrapper {
@@ -134,7 +134,7 @@
   top: 57px;
   width: 732px;
   height: 660px;
-  background-image: url(../images/landing/landing-mockup-1.jpg);
+  background-image: url(../images/landing/mockup1.jpg);
 }
 
 #mockup2 {
@@ -142,7 +142,7 @@
   top: 57px;
   width: 532px;
   height: 670px;
-  background-image: url(../images/landing/landing-mockup-2.jpg);
+  background-image: url(../images/landing/mockup2.jpg);
 }
 
 #mockup3 {
@@ -150,7 +150,7 @@
   top: 77px;
   width: 1348px;
   height: 779px;
-  background-image: url(../images/landing/landing-mockup-3.jpg);
+  background-image: url(../images/landing/mockup3.jpg);
   border-radius: 5px 0 0 0;
   box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
 }
