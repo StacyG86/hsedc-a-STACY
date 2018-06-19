@@ -171,10 +171,10 @@
 }
 
 @media all and (max-width: 1180px) {
-  .landing.bg {
+  /* .landing.bg {
     background-image: url(../images/index_mockup_ipad.png);
     background-size: 1024px 2275px;
-  }
+  } */
 
   .landingWrapper .mainSection {
     width: 1180px;
@@ -267,10 +267,10 @@
 }
 
 @media all and (max-width: 910px) {
-  .landing.bg {
+  /* .landing.bg {
     background-image: url(../images/index_mockup_ipad_portrait.png);
     background-size: 768px 4180px;
-  }
+  } */
 
   .landingWrapper .mainSection {
     width: 768px;
